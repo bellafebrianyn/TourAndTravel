@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Destination London</title>
+    <title>London Destination</title>
   </head>
 
   <style>
@@ -14,7 +14,7 @@
     }
 
     .card-body {
-      margin-top: 15px;
+      margin: 15px 0px;
       background-color: #04161d;
       height: 220px;
       width: 220px;
@@ -30,6 +30,10 @@
       background-color: rgb(172, 175, 179);
       margin-top: 70px;
     }
+
+    .content-destination {
+      background-image: url(../assets/london2.jpg);
+    }
   </style>
 
   <body>
@@ -40,7 +44,7 @@
         </div>
         <ul class="btn-groups">
           <li><a class="btn-navbar" href="../home.html">Home</a></li>
-          <li><a class="btn-navbar">About</a></li>
+          <li><a class="btn-navbar" href="#about">About</a></li>
           <li><a class="btn-navbar" href="#destination">Destination</a></li>
           <li><a class="btn-navbar">Contact Us</a></li>
         </ul>
@@ -48,52 +52,53 @@
     </header>
 
     <div class="body">
-      <div class="content-london">
+      <div class="content-destination">
         <i><b>Explore London's Timeless Charm</b></i>
       </div>
     </div>
 
-    <h2 class="tittle-destination">ABOUT LONDON</h2>
-
-    <div class="row">
-      <div class="column">
-        <img src="../assets/london.jpg" alt="" width="470px" />
-      </div>
-      <div class="column">
-        <p>
-          London, the vibrant capital of the United Kingdom, beckons with a
-          captivating blend of history, culture, and modernity. Nestled along
-          the banks of the iconic River Thames, this metropolis is a tapestry of
-          timeless charm and contemporary allure. Immerse yourself in history as
-          you wander through the cobbled streets of Covent Garden, where quaint
-          boutiques and street performers converge. Experience the grandeur of
-          Buckingham Palace, the official residence of the British monarch, and
-          witness the Changing of the Guard ceremony that embodies British
-          tradition. Cultural enthusiasts will find solace in London's
-          world-renowned museums and galleries. The British Museum houses an
-          extraordinary collection of artifacts spanning civilizations, while
-          the Tate Modern showcases avant-garde art in a repurposed power
-          station. Marvel at the stunning architecture of the Tower of London, a
-          historic fortress that has witnessed centuries of intrigue and power
-          struggles. Indulge in retail therapy along the bustling Oxford Street
-          or discover eclectic treasures at Camden Market, where vintage fashion
-          and artisanal crafts collide. Escape to the serene oasis of Hyde Park,
-          a sprawling green expanse perfect for leisurely strolls and boating on
-          the Serpentine Lake. London's culinary scene is a gastronomic
-          adventure in itself. Sample diverse flavors at Borough Market, where
-          local produce and international delicacies entice your taste buds.
-          Experience high tea at one of the city's classic tearooms or savor
-          innovative cuisine at Michelin-starred restaurants. As night falls,
-          London's West End comes alive with dazzling theater productions,
-          showcasing world-class performances that cater to every artistic
-          preference.
-        </p>
+    <!-- about london -->
+    <div id="about">
+      <h2 class="tittle-destination">ABOUT LONDON</h2>
+      <div class="row">
+        <div class="column-img"></div>
+        <div class="column">
+          <p>
+            London, the vibrant capital of the United Kingdom, beckons with a
+            captivating blend of history, culture, and modernity. Nestled along
+            the banks of the iconic River Thames, this metropolis is a tapestry
+            of timeless charm and contemporary allure. Immerse yourself in
+            history as you wander through the cobbled streets of Covent Garden,
+            where quaint boutiques and street performers converge. Experience
+            the grandeur of Buckingham Palace, the official residence of the
+            British monarch, and witness the Changing of the Guard ceremony that
+            embodies British tradition. Cultural enthusiasts will find solace in
+            London's world-renowned museums and galleries. The British Museum
+            houses an extraordinary collection of artifacts spanning
+            civilizations, while the Tate Modern showcases avant-garde art in a
+            repurposed power station. Marvel at the stunning architecture of the
+            Tower of London, a historic fortress that has witnessed centuries of
+            intrigue and power struggles. Indulge in retail therapy along the
+            bustling Oxford Street or discover eclectic treasures at Camden
+            Market, where vintage fashion and artisanal crafts collide. Escape
+            to the serene oasis of Hyde Park, a sprawling green expanse perfect
+            for leisurely strolls and boating on the Serpentine Lake. London's
+            culinary scene is a gastronomic adventure in itself. Sample diverse
+            flavors at Borough Market, where local produce and international
+            delicacies entice your taste buds. Experience high tea at one of the
+            city's classic tearooms or savor innovative cuisine at
+            Michelin-starred restaurants. As night falls, London's West End
+            comes alive with dazzling theater productions, showcasing
+            world-class performances that cater to every artistic preference.
+          </p>
+        </div>
       </div>
     </div>
 
-    <div class="all">
+    <!-- destination -->
+    <div class="all" id="destination">
       <div class="content-item">
-        <div class="profile row text-center">
+        <div class="profile-destination text-center">
           <div class="card-body">
             <img src="../assets/bigben.jpg" alt="" class="icons" />
             <a>Bigben</a>
