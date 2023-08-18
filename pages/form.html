@@ -3,7 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="/js/form.js"></script>
   </head>
-  <body></body>
+
+  <body class="body-form">
+    <div class="login-box">
+      <h2>Form Pembelian</h2>
+
+      <div class="user-box">
+        <input type="text" id="names" required="" />
+        <label>Nama</label>
+      </div>
+      <div class="user-box">
+        <input type="email" id="emaill" required="" />
+        <label>Email</label>
+      </div>
+      <div class="user-box">
+        <input type="text" id="destinasii" required="" />
+        <label>Destinasi</label>
+      </div>
+      <div class="user-box">
+        <input type="date" id="datee" required="" />
+      </div>
+      <button id="submit_button" onclick="getData()">Submit</button>
+      <div>
+        <h2>Data Pemesanan</h2>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Destination</th>
+            <th>Date</th>
+          </tr>
+          <tr style="color: rgb(49, 110, 110)">
+            <td id="viewName">null</td>
+            <td id="viewEmail">null</td>
+            <td id="viewDestinasi">null</td>
+            <td id="viewDate">null</td>
+          </tr>
+        </table>
+        <a href="../home.html"><button id="submit_button">Back</button></a>
+      </div>
+    </div>
+  </body>
 </html>
