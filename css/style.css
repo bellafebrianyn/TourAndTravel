@@ -76,7 +76,6 @@ body {
 }
 
 
-
 .body {
     justify-content: center;
     font-size: 100px;
@@ -216,3 +215,69 @@ footer {
     font-weight: bold;
     color: rgb(252, 252, 252);
 }
+
+.content-london {
+    background-image: url(../assets/london2.jpg);
+    opacity: 85%;
+    background-size:auto;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding : 100px;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    text-shadow: #000000;
+}
+
+.row {
+    display: flex;
+    margin: 20px 80px;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    background-color: #001720;
+    border-radius: 10px;
+  }
+
+  .column p {
+    font-size: 13.3px;
+    color: rgb(187, 204, 226);
+    text-align: justify;
+    text-indent: 0.5in;
+  }
+
+  .tittle-destination {
+    margin-top: 30px;
+    text-align: center;
+    color: #04161d;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        background-color: #F6F4EB ; 
+        justify-content: space-between;
+    }
+
+    .card-body {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -60px;
+        height: 100px;
+        width: 100px;
+        background-color: rgba(71, 175, 206, 0.952);
+        border-radius: 10px;
+    }
+
+    .icons {
+        width: 50px;
+    }
+    .icons:hover {
+        transform: scale(1.2);
+        transition: 10ms;
+    }
+  }
