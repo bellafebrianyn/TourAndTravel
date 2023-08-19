@@ -14,7 +14,6 @@ nav {
 
 body {
     font-family: poppins;
-    overflow-x: hidden;
 }
 
 .btn-groups {
@@ -427,65 +426,6 @@ th {
     letter-spacing: 4px
   }
 
-  /* hamburger menu */
-  .menu-toggle {
-    display: none;
-    margin: 20px;
-    flex-direction: column;
-    height: 20px;
-    justify-content: space-between;
-    background-color: #F6F4EB;
-    position: relative;
-  }
-
-  .menu-toggle input {
-    position: absolute;
-    width: 40px;
-    height: 28px;
-    left: -5px;
-    top: -3px;
-    opacity: 0;
-    cursor: pointer;
-    z-index: 2;
-  }
-  
-  .menu-toggle span {
-    display: block;
-    width: 28px;
-    height: 3px;
-    background-color: rgb(0, 106, 148);
-    border-radius: 3px;
-    transition: all 0.5s;
-  }
-
-  /* hamburger animation */
-  .menu-toggle span:nth-child(2) {
-    transform-origin: 0 0;
-  }
-
-  .menu-toggle span:nth-child(5) {
-    transform-origin: 0 100%;
-  }
-
-  .menu-toggle input:checked ~ span:nth-child(2) {
-    transform: rotate(45deg) translate(-1px, -1px);
-    background-color: white;
-  }
-
-  .menu-toggle input:checked ~ span:nth-child(5) {
-    transform: rotate(-45deg) translate(-1px, 0);
-    background-color: white;
-  }
-
-  .menu-toggle input:checked ~ span:nth-child(3) {
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  .menu-toggle input:checked ~ span:nth-child(4) {
-    transform: scale(0);
-    opacity: 0;
-  }
 
 /* responsive */
 @media only screen and (max-width: 1310px) {
@@ -594,38 +534,9 @@ th {
         padding: 5px;
         font-size:xx-small;
     }
-}
 
-/* navbar mobile */
-@media only screen and (max-width: 576px) {
-    .menu-toggle {
-        display: flex;
-    }
-    
-    nav .btn-groups{
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 40%;
-        height: 100vh;
-        justify-content:center;
-        flex-direction: column;
-        align-items: center;
-        background-color: #F6F4EB;
-        /* z-index: -1; */
-        transform: translateX(100%);
-        transition: all is; 
-        opacity: 0;
-
-        .btn-navbar {
-            font-size: small;
-            margin: 0;
-        }
-    }
-
-    nav .btn-groups.slide {
-        transform: translateX(0);
-        opacity: 1;
-    } 
-
+    #back_button {
+        width: 15%;
+        height: 30px;
+      }
 }
