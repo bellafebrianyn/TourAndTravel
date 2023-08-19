@@ -490,5 +490,14 @@ th {
         display: block;
         column-gap: 70px;
     }
+    
+    .btn-navbar {
+        padding: 15px;
+        font-size: 8px;
+    }
+
+    .main h1{
+        font-size: larger;
+    }
 
 }
