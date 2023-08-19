@@ -285,7 +285,9 @@ th,
 td {
     text-align: left;
     padding: 8px;
+    font-size: smaller;
 }
+
 
 tr:nth-child(even) {
     background-color: #f2f2f2
@@ -333,11 +335,12 @@ th {
     animation: btn-anim1 1s linear infinite;
   }
 
+
 .login-box {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
+    width: 600px;
     padding: 40px;
     transform: translate(-50%, -50%);
     background: rgba(0,0,0,.5);
@@ -500,4 +503,14 @@ th {
         font-size: larger;
     }
 
+    .login-box {
+        width: 300px;
+        padding: 40px;
+      }
+    
+    th,
+    td {
+        padding: 5px;
+        font-size:xx-small;
+    }
 }
